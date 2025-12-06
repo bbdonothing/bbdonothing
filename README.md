@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @bbdonothing
-- 👀 I’m interested in python software development
-- 🌱 I’m currently learning Django  
-- 💞️ I’m looking to collaborate on simple web projects
-- 📫 How to reach me finnguo@gmail.com
+# Smart Meal Planner
 
-<!---
-bbdonothing/bbdonothing is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+A lightweight front-end experience for planning weekly recipes, aligning with dietary/cuisine/fitness preferences, and auto-building grocery lists that leverage pantry-driven substitutions.
+
+## Features
+- Set dietary, cuisine, and fitness goals to filter recipe suggestions.
+- Assign recipes across the week with real-time grocery list calculations.
+- Track pantry items, accept suggested substitutions that match your pantry, and keep lists synced automatically.
+
+## Getting started
+1. Open `index.html` in your browser, or serve locally (e.g., `python -m http.server 8000`).
+2. Add your pantry staples, set preferences, and choose recipes for each day.
+3. Review substitution prompts and watch the grocery list update instantly as you plan.
