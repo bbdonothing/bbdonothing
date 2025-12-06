@@ -1,0 +1,62 @@
+[
+  {
+    "id": "grilled-chicken-quinoa",
+    "name": "Grilled Chicken with Quinoa",
+    "cuisine": "American",
+    "dietary_tags": ["gluten-free", "high-protein"],
+    "fitness_goals": ["muscle_gain", "balanced"],
+    "calories_per_serving": 520,
+    "protein_grams": 45,
+    "carbs_grams": 55,
+    "fat_grams": 14,
+    "ingredients": ["chicken breast", "quinoa", "spinach", "lemon"]
+  },
+  {
+    "id": "tofu-stir-fry",
+    "name": "Tofu Veggie Stir Fry",
+    "cuisine": "Asian",
+    "dietary_tags": ["vegan", "gluten-free"],
+    "fitness_goals": ["weight_loss", "balanced"],
+    "calories_per_serving": 380,
+    "protein_grams": 22,
+    "carbs_grams": 40,
+    "fat_grams": 14,
+    "ingredients": ["tofu", "broccoli", "bell pepper", "sesame oil"]
+  },
+  {
+    "id": "mediterranean-bowl",
+    "name": "Mediterranean Chickpea Bowl",
+    "cuisine": "Mediterranean",
+    "dietary_tags": ["vegetarian", "high-fiber"],
+    "fitness_goals": ["balanced", "heart_health"],
+    "calories_per_serving": 450,
+    "protein_grams": 18,
+    "carbs_grams": 60,
+    "fat_grams": 16,
+    "ingredients": ["chickpeas", "cucumber", "tomato", "feta", "olives"]
+  },
+  {
+    "id": "salmon-salad",
+    "name": "Salmon Citrus Salad",
+    "cuisine": "American",
+    "dietary_tags": ["pescatarian", "gluten-free"],
+    "fitness_goals": ["weight_loss", "heart_health"],
+    "calories_per_serving": 410,
+    "protein_grams": 35,
+    "carbs_grams": 28,
+    "fat_grams": 18,
+    "ingredients": ["salmon", "arugula", "orange", "almonds"]
+  },
+  {
+    "id": "lentil-curry",
+    "name": "Coconut Lentil Curry",
+    "cuisine": "Indian",
+    "dietary_tags": ["vegan", "dairy-free"],
+    "fitness_goals": ["balanced", "endurance"],
+    "calories_per_serving": 480,
+    "protein_grams": 20,
+    "carbs_grams": 65,
+    "fat_grams": 16,
+    "ingredients": ["red lentils", "coconut milk", "spinach", "basmati rice"]
+  }
+]
