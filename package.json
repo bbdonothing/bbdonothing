@@ -1,0 +1,19 @@
+{
+  "name": "webview-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf www && mkdir -p www && cp -r src/* www/",
+    "clean": "rm -rf www",
+    "sync": "npm run build && npx cap sync",
+    "android": "npm run sync && npx cap open android",
+    "ios": "npm run sync && npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2",
+    "typescript": "^5.4.5"
+  }
+}
