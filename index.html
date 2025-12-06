@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Meal Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Meal planning made simple</p>
+      <h1>Build a weekly plan with dynamic grocery lists & pantry-smart swaps.</h1>
+      <p class="lede">Set your preferences, pick recipes, and let the app keep your grocery list and substitutions in sync automatically.</p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="card preferences" aria-label="Preferences">
+      <div class="card__header">
+        <h2>Preferences</h2>
+        <p class="subtle">Tune dietary, cuisine, and fitness goals to personalize recipe suggestions.</p>
+      </div>
+      <div class="grid grid--3">
+        <label class="field">
+          <span>Dietary preference</span>
+          <select id="diet-select"></select>
+        </label>
+        <label class="field">
+          <span>Cuisine</span>
+          <select id="cuisine-select"></select>
+        </label>
+        <label class="field">
+          <span>Fitness goal</span>
+          <select id="fitness-select"></select>
+        </label>
+      </div>
+      <div class="pantry">
+        <label class="field field--stacked">
+          <span>Pantry items</span>
+          <div class="pantry__input">
+            <input id="pantry-input" type="text" placeholder="e.g., chickpeas, oats" />
+            <button id="add-pantry" class="btn">Add</button>
+          </div>
+        </label>
+        <div id="pantry-tags" class="tags" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="card" aria-label="Recipe selection">
+      <div class="card__header">
+        <h2>Weekly recipes</h2>
+        <p class="subtle">Pick recipes for each day. Options reflect your preferences.</p>
+      </div>
+      <div id="weekly-plan" class="week"></div>
+    </section>
+
+    <section class="card" aria-label="Substitution suggestions">
+      <div class="card__header">
+        <h2>Pantry-powered substitutions</h2>
+        <p class="subtle">Accept suggested swaps that use what you already have.</p>
+      </div>
+      <div id="substitution-suggestions" class="suggestions" aria-live="polite"></div>
+    </section>
+
+    <section class="card" aria-label="Grocery list">
+      <div class="card__header">
+        <h2>Grocery list</h2>
+        <p class="subtle">Automatically updated as you change recipes or substitutions.</p>
+      </div>
+      <div id="grocery-list" class="list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built for efficient meal planning with real-time grocery updates.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
